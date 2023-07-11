@@ -1,0 +1,33 @@
+<!-- also at the bottom of final_web.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+</head>
+<script src="cart.js" defer></script>
+<body>
+<ul>
+    <li class = "cart">
+        <a href = cart.html>
+            cart:<span>0</span>
+        </a>
+    </li>
+</ul>
+<section class="cart-container">
+    <h2 class="section-header">CART</h2>
+    <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items"><!-- where the items are put -->
+    </div>
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</section>
+</body>
+</html>
